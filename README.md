@@ -2,7 +2,7 @@
 CodeIgniter Gravatar Helper
 ============================
 
-This is a small codeigniter helper library for working with the [Gravatar](http://gravatar.com) API to pull user profile pictures from email addresses.
+A small [CodeIgniter](http://codeigniter.com) helper library for working with the [Gravatar](http://gravatar.com) API to pull user profile pictures from email addresses.
 
 
 Installation
