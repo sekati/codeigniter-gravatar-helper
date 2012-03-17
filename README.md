@@ -15,8 +15,7 @@ Installation
 
 Usage
 -------------------------------------
-
-	/**
+	/**
 	 * Get either a Gravatar URL or complete image tag for a specified email address.
 	 *
 	 * @param string 	$email The email address
@@ -26,11 +25,33 @@ Usage
 	 * @param string 	$r Maximum rating (inclusive) [ g | pg | r | x ]
 	 * @param array 	$atts Optional, additional key/value attributes to include in the IMG tag
 	 * @return 			String containing either just a URL or a complete image tag
-	 * @source			(derrived) http://en.gravatar.com/site/implement/images/php/
 	 */
-	 
+
 	<?=gravatar( 'test@example.com', 100 )?>
 
+
+	/**
+	 * Get a Gravatar profile URL from a primary gravatar email address.
+	 *
+	 * @param string 	$email The email address
+	 * @return 			String containing the users gravatar profile URL.
+	 */
+
+	<?=gravatar_profile( 'test@example.com' )?>
+
+	
+	/**
+	 * Get either a Gravatar QR Code URL or complete image tag from a primary gravatar email address.
+	 *
+	 * @param string 	$email The email address
+	 * @param string 	$s Size in pixels, defaults to 80px [ 1 - 512 ]
+	 * @param boolean 	$img True to return a complete IMG tag False for just the URL 
+	 * @param array 	$atts Optional, additional key/value attributes to include in the IMG tag
+	 * @return 			String containing either just a URL or a complete image tag
+	 */
+ 
+	<?=gravatar_qr( 'test@example.com' )?> 
+	
   	
 License
 -------------------------------------
