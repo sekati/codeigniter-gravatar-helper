@@ -96,4 +96,3 @@ if ( ! function_exists('gravatar_qr'))
  
 /* End of file gravatar_helper.php */
 /* Location: application/helpers/gravatar_helper.php */
-?>
