@@ -8,13 +8,13 @@
  * @copyright	Copyright (c) 2012, Sekati LLC.
  * @license		http://www.opensource.org/licenses/mit-license.php
  * @link		http://sekati.com
- * @version		v1.1.0
+ * @version		v1.1.1
  * @filesource
  *
  * @usage 		$autoload['helper'] = array('gravatar');
- * @example 	gravatar( 'jason@sekati.com' ); // returns gravatar img tag
- * 				gravatar_profile( 'jason@sekati.com' ); // returns URL
- * 				gravatar_qr( 'jason@sekati.com' ); // returns QR img tag
+ * @example 	gravatar( 'jason@sekati.com' );	 			// returns gravatar img tag
+ * 				gravatar_profile( 'jason@sekati.com' ); 	// returns URL
+ * 				gravatar_qr( 'jason@sekati.com' ); 			// returns QR img tag
  */
 
 // ------------------------------------------------------------------------
@@ -95,4 +95,3 @@ if ( ! function_exists('gravatar_qr'))
  
  
 /* End of file gravatar_helper.php */
-/* Location: application/helpers/gravatar_helper.php */

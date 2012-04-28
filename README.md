@@ -1,21 +1,22 @@
 
-CodeIgniter Gravatar Helper
+Gravatar Helper Spark for CodeIgniter
 ============================
 
-A small [CodeIgniter](http://codeigniter.com) helper library for working with the [Gravatar](http://gravatar.com) API to pull user profile pictures from email addresses.
+A [CodeIgniter](http://codeigniter.com) helper [Spark](http://getsparks.org/) for working with the [Gravatar](http://gravatar.com) API to pull user avatar images, QR codes & profile URL's from email addresses.
 
 
 Installation
 -------------------------------------
 
-1. Copy `gravatar_helper.php` to your `application/helpers` folder.
-2. Autoload the helper `$autoload['helper'] = array('gravatar');`.
+1. Install the spark: `php tools/spark install gravatar` - or, if not using Spark package management, copy `gravatar_helper.php` to your `application/helpers` folder.
+2. Load the spark: `$this->load->spark('gravatar/1.1.1');` - or, optionally autoload the spark in `application/config/autoload.php`: `$autoload['sparks'] = array('gravatar/1.1.1');`.
 3. Employ helper functions as needed.
 
 
 Usage
 -------------------------------------
-	/**
+
+	/**
 	 * Get either a Gravatar URL or complete image tag for a specified email address.
 	 *
 	 * @param string 	$email The email address
